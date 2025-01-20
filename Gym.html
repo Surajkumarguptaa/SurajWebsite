@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Fitness</title>
+</head>
+<link rel="stylesheet" href="Project1GYM.css">
+<style>
+    /*CSS reset*/
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/woman.png.jpg');
+    }
+    .left{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+        padding: 0px 8px;
+    }
+    .left img{
+        width: 80px;
+    }
+    .left div{
+        line-height: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 60%;
+        margin: 11px auto;
+        /*border: 2px solid green;*/
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid gray;*/
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 19px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 25px 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar li a:hover, .navbar a:active{
+        text-decoration: underline;
+        color: khaki;
+    }
+    .btn{
+        margin: 11px 11px;
+        background-color: black;
+        color: white;
+        padding: 6px 27px;
+        border-radius: 5px;
+        border: 2px solid white;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: khaki;
+        
+    }
+    .container{
+        border: 2px solid white;
+        margin: 52px 1px;
+        padding: 28px 27px;
+        width: 30%;
+        border-radius: 5px;
+    }
+    .container h1{
+        color: yellow;
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 290px;
+        padding: 11px;
+        border: 1px solid green;
+        margin: 6px auto;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 300px;
+        margin: 10px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/fitness.png.jpg" alt="">
+            <div>Suraj Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contack Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best GYM of Muzaffarpur</h1>
+        <form action="noaction.php"></form>
+        <div class="form">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form">
+            <input type="text" name="" placeholder="Enter Your No">
+        </div>
+        <div class="form">
+             <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form">
+             <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
